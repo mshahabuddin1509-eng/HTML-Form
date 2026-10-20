@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <a href="index.html">1</a>
+    <a href="about.html">2</a>
+    <a href="photo.html">3</a>
+    <a href="contact.html">4</a>
+    <a href="protofile.html">5</a>
+
+<center>
+<form>
+
+    <fieldset style="width:400px;">
+        <legend>Login</legend>
+
+        <label>Username*</label><br>
+        <input type="text" name="username"><br><br>
+
+        <label>Password*</label><br>
+        <input type="password" name="password">
+    </fieldset>
+
+    <br>
+
+    <fieldset style="width:400px;">
+        <legend>Gender*</legend>
+
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+    </fieldset>
+
+    <br>
+
+    <fieldset style="width:400px;">
+        <legend>Programming Skill</legend>
+
+        <input type="checkbox" name="java"> Java
+        <input type="checkbox" name="cpp" checked> C++
+        <input type="checkbox" name="csharp"> C#
+    </fieldset>
+
+    <br>
+
+    <fieldset style="width:400px;">
+        <legend>Fruit</legend>
+
+        <label>Choose a fruit:</label>
+
+        <select name="fruit">
+            <option>Apple</option>
+            <option selected>Banana</option>
+            <option>Mango</option>
+            <option>Orange</option>
+        </select>
+    </fieldset>
+
+    <br>
+
+    <textarea rows="8" cols="55" placeholder="Enter your comment here"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="SEND">
+    <input type="reset" value="RESET">
+
+</form>
+</center>
+
+</body>
+</html>
